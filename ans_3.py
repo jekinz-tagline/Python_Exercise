@@ -13,4 +13,5 @@ for i in sentences:
 
 sentence_list = list(itertools.chain.from_iterable(word_tree))
 word_count = Counter(sentence_list)
-print(word_count)
+print("Word trees = ",word_tree)
+print("\nNumber of time each word appears: ",dict(word_count))
