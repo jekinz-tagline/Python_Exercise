@@ -14,7 +14,7 @@ match user_opt:
         print("\nLength of the list",len(numbers))
 
     case "B" : 
-        print("\nFirst 3 numbers: ",numbers[slice(3)])
+        print("\nFirst 3 numbers: ",numbers[0:3])
     
     case "C" :
         total = 0
